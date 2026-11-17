@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Northline Studio | About Page.</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+	<header class="site-header">
+		<div class="container header-layout">
+
+			<a class="site-name" href="../index.html">Northline <span>Studio<span></a>
+
+			<button class="menu-button" type="button" aria-controls="main-navigation" aria-expanded="false">
+				<i class="fa-solid fa-bars" aria-hidden="true"></i><span>Menu</span>
+			</button>
+
+			<nav id="main-navigation" class="main-navigation" aria-label="Main navigation">
+				<div class="nav-list-wrap">
+					<ul class="nav-list">
+						<li><a href="../index.html">Home</a></li>
+
+						<li><a href="./service_page.html" >Services</a></li>
+
+						<li><a href="./about_page.html">About</a></li>
+
+						<li><a href="./about_page.html" aria-current="page">Contact</a></li>
+					</ul>
+
+					<ul class="social-links" aria-label="Social media links">
+
+						<li>
+							<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram, opens in a new tab">
+								<i class="fa-brands fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn, opens in a new tab">
+								<i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest, opens in a new tab">
+								<i class="fa-brands fa-pinterest-p" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+	<main id="main-content">
+		<div class="hero-section">
+			<div class="contact_image-container">
+				<div class="hero-details-wrap">
+					<div class="contact_hero-details">
+						<h5>get in touch</h5>
+						<h1>Good work starts <span>with a conversation.</span></h1>
+						<p>
+							Have an idea, a new challenge or a project in mind? Tell us a little about it. We'd love to hear from you.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact-section">
+			<div class="contact-content-wrap container">
+
+				<div class="contact_form-content">
+					<div class="contact_form-container">
+						<div class="contact_form-title">
+							<h5>tell us about your project</h5>
+							<h1>What do you have in mind?</h1>
+							<p>A few details will help us understand where you want to go. <span>Fields marked * are required.</span></p>
+						</div>
+
+						<form class="contact_form" id="contactForm">
+
+							<div class="user_details">
+								<div class="user_name">
+									<label for="userName">Your name *</label>
+									<input type="text" name="userName" id="userName" placeholder="Full name">
+								</div>
+
+								<div class="user_email">
+									<label for="userEmail">Your Email address *</label>
+									<input type="email" name="userEmail" id="userEmail" placeholder="example@email.com">
+								</div>
+							</div>
+							
+							<div class="user_brand">
+								<label for="userBrand">Company / organisation</label>
+								<input type="text" name="userBrand" id="userBrand" placeholder="Your company or organisation">
+							</div>
+
+
+							<div class="button_group" >
+								<legend>What can we help with? *</legend>
+								<div class="button_group_wrap">
+									<input type="checkbox" id="option-1" name="options" value="brand identity">
+									<label for="option-1">Brand identity</label>
+
+									<input type="checkbox" id="option-2" name="options" value="digital design">
+									<label for="option-2">Digital Design</label>
+
+									<input type="checkbox" id="option-3" name="options" value="Content direction">
+									<label for="option-3">Content direction</label>
+
+									<input type="checkbox" id="option-4" name="options" value="not sure yet">
+									<label for="option-4">Not sure yet</label>
+								</div>
+								
+							</div>
+
+							<div class="user_preferences">
+								<div class="user_budget">
+									<label for="userBudget">Budget range</label>
+									<select name="userBudget" id="userBudget">
+										<option value>Choose your budget</option>
+										<option value="500-1000">£500 - £1,000</option>
+										<option value="1000-3000">£1,000 - £3,000</option>
+										<option value="3000-5000">£3,000 - £5,000</option>
+										<option value="5000-7000">£5,000 - £7,000</option>
+									</select>
+								</div>
+								
+								<div class="user_timeFrame">
+									<label for="userTimeFrame">Ideal timeline</label>
+									<input type="date" name="userTimeFrame" id="userTimeFrame">
+								</div>
+							</div>
+
+							<div class="user_idea">
+								<label for="userIdea">Your project *</label>
+								<textarea name="userIdea" id="userIdea" placeholder="Write your idea here..."></textarea>
+							</div>
+
+
+							<div class="user_agreement">
+								<input type="checkbox" name="userAgreement" id="userAgreement" class="user_agreement_checkbox">
+								<label for="userAgreement">I agree to be contacted by Northline Studio about this enquiry. *</label>
+							</div>
+
+							<div class="form_button_wrap">
+								<button type="button" id="contactForm">Send enquiry <span><i class="fa-solid fa-arrow-right fa-width-auto"></i></span></button>
+							</div>
+
+						</form>
+					</div>
+
+					<div class="contact_form-sideBanner">
+						<h5>let's connect</h5>
+						<h2>A small studio, <span>a personal approch.</span></h2>
+						<p>
+							You don't need a finished brief. A little about your idea is enough to start the conversation.
+						</p>
+						<h5>Based In</h5>
+						<h4>Glasgow, Scotland</h4>
+						<p>
+							Branding, digital design and content for businesses and organisations.
+						</p>
+						<h3>Not sure where to start?</h3>
+						<p>
+							Choose “Not sure yet” and tell us what you're hoping to change. We'll explore the right approach together.
+						</p>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</main>
+
+
+	<footer class="site-footer">
+		<div class="container footer-wrap">
+
+			<div class="footer-layout">
+				<div>
+					<p class="footer-title">Northline Studio</p>
+					<p class="footer-description">Thoughtful creative services shaped around people, place and purpose.</p>
+				</div>
+
+				<nav aria-label="Footer navigation">
+					<ul class="footer-links">
+						<li><a href="../index.html">Home</a></li>
+
+						<li><a href="./service_page.html">Services</a></li>
+
+						<li><a href="./about_page.html">About</a></li>
+
+						<li><a href="./contact_page.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer-bottom"><p>&copy; 2026 Northline Studio</p></div>
+
+		</div>
+	</footer>
+
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
